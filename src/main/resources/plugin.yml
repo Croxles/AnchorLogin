@@ -1,8 +1,10 @@
 name: AnchorLogin
-version: 1.0
+version: '1.0.0'
 main: me.anchorlogin.AnchorLogin
-api-version: '1.21'
+api-version: '26.1'
 author: Anchor
+description: Login and registration plugin
+
 commands:
 kayit:
 description: Hesap kaydı
@@ -12,4 +14,4 @@ description: Hesaba giriş
 usage: /gir <sifre>
 sifredeyisdir:
 description: Şifre değiştir
-usage: /sifredeyisdir <eski> <yeni>
+usage: /sifredeyisdir <eski_sifre> <yeni_sifre>
