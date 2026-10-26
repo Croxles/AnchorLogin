@@ -1,1 +1,15 @@
-
+name: AnchorLogin
+version: 1.0
+main: me.anchorlogin.AnchorLogin
+api-version: '1.21'
+author: Anchor
+commands:
+kayit:
+description: Hesap kaydı
+usage: /kayit <sifre> <sifre>
+gir:
+description: Hesaba giriş
+usage: /gir <sifre>
+sifredeyisdir:
+description: Şifre değiştir
+usage: /sifredeyisdir <eski> <yeni>
