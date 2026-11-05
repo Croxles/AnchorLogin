@@ -1,0 +1,29 @@
+name: SifreSistemi
+version: 1.0.0
+main: com.sifresistemi.SifreSistemi
+api-version: '26.1.2'
+description: Kayit ve giris sistemi
+
+commands:
+  kayit:
+    description: Kayit ol
+    usage: /kayit <sifre> <sifre>
+    aliases: [kayıt]
+  gir:
+    description: Giris yap
+    usage: /gir <sifre>
+    aliases: [giris]
+  sifredeyisdir:
+    description: Sifre degistir
+    usage: /sifredeyisdir <eski> <yeni>
+    aliases: [sifredegistir]
+  sifresifirla:
+    description: Oyuncu sifresini sifirla (admin)
+    usage: /sifresifirla <oyuncu>
+    permission: sifre.admin
+    permission-message: Bu komutu sadece adminler kullanabilir.
+
+permissions:
+  sifre.admin:
+    description: Admin komutlari
+    default: op
